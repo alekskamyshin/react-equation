@@ -26,7 +26,8 @@
   ],
   "dependencies": {
     "equation-parser": "^1.0.0",
-    "equation-resolver": "^1.0.0"
+    "equation-resolver": "^1.0.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
