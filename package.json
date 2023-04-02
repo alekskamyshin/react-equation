@@ -19,7 +19,7 @@
     "lint": "eslint \"src/**/*.{ts,tsx}\" rollup.config.js",
     "types": "tsc -d --emitDeclarationOnly --outDir dist",
     "bundle": "rollup -c rollup.config.js",
-    "prepare": "rimraf dist && yarn lint && yarn test && yarn types && yarn bundle"
+    "prepare": "rimraf dist && yarn lint && yarn test && yarn bundle"
   },
   "files": [
     "dist"
